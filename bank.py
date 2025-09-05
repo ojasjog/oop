@@ -1,5 +1,5 @@
 class BankAccount:
-    def __init__(self, owner=str, balance=0):
+    def __init__(self, owner:str, balance: int=0):
         self.owner = owner
         self.balance = balance
         
