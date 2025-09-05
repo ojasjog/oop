@@ -10,7 +10,7 @@ class Dog:
     def bark(self):
         print(f"{self.name} is barking! Woof!")
 
-    def get_dog_years(self, years=int):
+    def get_dog_years(self, years:int):
         years = self.age*7
         print(years)
 
