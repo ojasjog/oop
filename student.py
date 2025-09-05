@@ -5,7 +5,7 @@ class Student:
         self.name=name
         self.grades=grades
 
-    def new_grade(self, new=int):
+    def new_grade(self, new:int):
 
         
         self.grades.append(new)
